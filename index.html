@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>charity: water – Give Clean Water</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome 6 (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-I1KgMsXKk..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <!-- ✨  NAVBAR  ✨ -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo"><i class="fa-solid fa-droplet"></i> charity: water</a>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+      <ul class="nav-links">
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#donate">Donate</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <!--  HERO  -->
+  <header id="hero" class="hero fade-in">
+    <img src="img/cw_logo.png" alt="charity: water logo" class="hero-logo" />
+    <h1>Give Clean Water. See the Impact.</h1>
+    <p>One tap. Real change. Your $10 helps fund clean water projects, and you’ll see exactly where your money goes.</p>
+    <a href="#donate" class="donate-button"><i class="fa-solid fa-droplet"></i> Donate $10</a>
+  </header>
+
+  <!-- IMPACT STORY -->
+  <section id="impact" class="impact-story fade-in">
+    <h2>Real Impact: Meet Amina</h2>
+    <div class="impact-content">
+      <img src="img/cw-ss.png" alt="Amina smiling with clean water" class="impact-image" />
+      <p>
+        Amina used to walk miles every day to collect water for his family. Thanks to your support, his village now has a clean water well.
+        Amina can go to school and his family is healthier and happier.
+      </p>
+    </div>
+  </section>
+
+  <!-- QUOTE SECTION -->
+  <section id="stories" class="quote-story fade-in">
+    <h2>Every Drop Changes Lives</h2>
+    <div class="quote-content">
+      <img src="img/family-smile.png" alt="Family smiling" class="quote-image" />
+      <blockquote>
+        “Now that we have clean water in our village, I can spend time with my children instead of walking for hours.
+        Our health has improved, and we feel hope again.”
+        <footer>— A mother from Ethiopia</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section id="donate" class="call-to-action fade-in">
+    <h2>Make a Difference</h2>
+    <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
+    <a href="https://www.charitywater.org/donate" class="donate-button"><i class="fa-solid fa-droplet"></i> Join the Movement</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2025 charity: water – Built by Meera Vasishta.</p>
+  </footer>
+
 </body>
 </html>
